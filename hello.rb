@@ -1,0 +1,7 @@
+class Hello
+    def greet
+        puts "What is your name?"
+        name = gets.chomp
+        puts "Hello, #{name}!"
+    end
+end
